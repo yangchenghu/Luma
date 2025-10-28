@@ -1,0 +1,108 @@
+/* 
+  Localizable.strings
+  TBImageMgic
+
+  Created by wplive on 2024/7/11.
+  
+*/
+
+"im_language_des" = "英文-en";
+
+
+// 二期新增
+// tabbar
+"首页" = "Home";
+"资料库" = "Library";
+
+// create
+"Interactive Scenes" = "Interactive Scenes";
+"（可选）描述你想象中的视频" = "(Optional) describe the video you envision";
+"Share with other authors" = "Share with other authors";
+"Share your created videos with other creators and receive likes." = "Share your created videos with other creators and receive likes.";
+"Select how many videos to generate" = "Select how many videos to generate";
+"请选择第二张图片" = "Please select the second image";
+"Cancel" = "Cancel";
+"Save" = "Save";
+"描述你想象中这张照片发生的动作" = "(Optional) Describe the actions or scene in the photo you imagine, e.g., a pretty lady laughing and dancing happily";
+"Your name" = "Your name";
+"UserName" = "UserName";
+"Video Renders" = "Video Renders";
+"删除视频" = "Delete video";
+"确认删除这个作品吗？" = "Confirm to delete this work?";
+"确认" = "Confirm";
+"取消" = "Cancel";
+
+// 补充
+"Create" = "Create";
+"Capture with LumaVideo and View IN lifelike, interactive" = "Capture with LumaVideo and View IN lifelike, interactive";
+"You can generate multiple videos simultaneously by AI and select the best result." = "You can generate multiple videos simultaneously by AI and select the best result.";
+
+// 补充2
+"上传图片中" = "Uploading image";
+"发布中" = "Publishing";
+"Created by" = "Created by";
+"Prompt" = "Prompt";
+
+
+
+
+// home
+"余额" = "Balance";
+"充值入口" = "Recharge";
+"历史记录" = "History";
+"联系我们" = "Contact us";
+"立即制作" = "Try now";
+"大家都在做" = "Such as";
+
+// pay
+"Purse" = "Purse";
+"充值成功" = "Recharge successful";
+
+// create
+"重新选择" = "Re-select";
+"AI 自动生成" = "AI automatic generation";
+
+// temp
+"我要做同款" = "Make the same";
+"更多模板" = "More Templates";
+
+// detail
+"保存视频" = "Save video";
+"再做一张" = "Create another";
+"返回首页" = "Return to homepage";
+"已保存到相册" = "Saved to album";
+"保存失败" = "Save failed";
+"保存中" = "Saving";
+"下载中" = "Downloading";
+"驯服AI中" = "Taming AI";
+"预计完成时间" = "Estimated Completion Time";
+"已完成" = "Completed";
+"立刻查看" = "View Now";
+"超时错误提示" = "Request timed out, please check the history record.";
+
+// 历史记录
+"历史记录" = "History";
+"暂无生成内容" = "No generated content";
+"生成中" = "Generating";
+
+
+// 1.0.3
+// detail
+"做的怎么样" = "How did it go?";
+"是否要重新制作?" = "Do you want to remake it?";
+"重做" = "Redo";
+"输入一些提示" = "Enter some prompts";
+"文字生成视频" = "Text to video";
+"图片生成视频" = "Image to video";
+"请输入内容" = "Please input content";
+
+// 1.0.6
+
+"风格模板" = "AI Video idea"; 
+"生成时长" = "Duration";
+"生成模式" = "Mode";
+"高性能" = "Speed";
+"高表现" = "Quality";
+"生成速度更快，创作成本更低" = "Faster generation speed, lower creative costs";
+"视频画面质量更加，需要更多的制作时间，创作成本高" = "Higher video quality, requires more production time, higher creative costs";
+

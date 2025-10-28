@@ -1,0 +1,23 @@
+/* 
+  InfoPlist.strings
+  TBImageMgic
+
+  Created by wplive on 2024/7/11.
+  
+*/
+
+//"CFBundleDisplayName" = "en-App名字";
+//"NSCameraUsageDescription" = "需要访问您的相机来扫描二维码绑定设备";
+//"NSContactsUsageDescription" = " 需要访问您的通讯录来实现通讯录备份";
+
+"NSUserTrackingUsageDescription" = "In order to provide you with better service, this identifier will be used to offer you personalized advertising services.";
+
+"NSPhotoLibraryAddUsageDescription" = "Need to access your photo album to save videos.";
+
+"NSPhotoLibraryUsageDescription" = "Need to access your photo album to retrieve images for creating a video.";
+
+//"NSLocationWhenInUseUsageDescription" = "需要您允许定位以把位置保存到照片中";
+
+
+
+

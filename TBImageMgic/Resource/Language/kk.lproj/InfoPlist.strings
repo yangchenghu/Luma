@@ -1,0 +1,19 @@
+/* 
+  InfoPlist.strings
+  TBImageMgic
+
+  Created by wplive on 2024/7/11.
+  
+*/
+
+//"CFBundleDisplayName" = "kk-App名字";
+//"NSCameraUsageDescription" = "QR кодын скан жасау және құрылғыларды байланыстыру үшін сіздің камераңызға қол жеткізу қажет";
+//"NSContactsUsageDescription" = "Контакттардың бекап жасалу үшін сіздің контакттарға қол жеткізу қажет";
+"NSUserTrackingUsageDescription" = "Сізге жақсы қызмет бере білу үшін, бұл идентификатор сізге тұлғалық жарнамалар қызметін ұсына білу үшін қолданылады.";
+"NSPhotoLibraryAddUsageDescription" = "Видеоларды сақтау үшін сіздің фотосуреттер кітапханасын қол жеткізу қажет.";
+"NSPhotoLibraryUsageDescription" = "Видео жасау үшін сіздің фотосуреттер кітапханасынан суреттерді алу үшін қол жеткізу қажет.";
+//"NSLocationWhenInUseUsageDescription" = "Фотоға орналасатын орнын сақтау үшін сіздің орналасатын орынын қолдануға рұқсат беру қажет";
+
+
+
+

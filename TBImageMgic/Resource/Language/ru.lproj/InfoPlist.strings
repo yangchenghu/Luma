@@ -1,0 +1,21 @@
+/* 
+  InfoPlist.strings
+  TBImageMgic
+
+  Created by wplive on 2024/7/11.
+  
+*/
+
+// "CFBundleDisplayName" = "en-App名字";
+// "NSCameraUsageDescription" = "Для сканирования QR-кода и привязки устройства требуется доступ к камере";
+// "NSContactsUsageDescription" = "Для создания резервной копии вашей адресной книги требуется доступ к вашим контактам";
+
+"NSUserTrackingUsageDescription" = "Для предоставления вам лучшего сервиса, этот идентификатор будет использоваться для предоставления вам персонализированных рекламных услуг.";
+
+"NSPhotoLibraryAddUsageDescription" = "Требуется доступ к вашему фотоальбому для сохранения видео.";
+
+"NSPhotoLibraryUsageDescription" = "Требуется доступ к вашему фотоальбому для извлечения изображений для создания видео.";
+
+// "NSLocationWhenInUseUsageDescription" = "Для сохранения местоположения в фото требуется ваше разрешение на определение местоположения"; 
+
+

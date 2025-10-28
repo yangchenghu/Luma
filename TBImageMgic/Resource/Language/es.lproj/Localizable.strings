@@ -1,0 +1,107 @@
+/* 
+  Localizable.strings
+  TBImageMgic
+
+  Created by wplive on 2024/7/11.
+  
+*/
+
+"im_language_des" = "西班牙语-es";
+
+// 二期新增
+// tabbar
+"首页" = "Inicio";
+"资料库" = "Biblioteca";
+
+// create
+"Interactive Scenes" = "Escenas Interactivas";
+"（可选）描述你想象中的视频" = "(Opcional) Describe el vídeo que visualizas";
+"Share with other authors" = "Compartir con otros autores";
+"Share your created videos with other creators and receive likes." = "Comparte tus videos creados con otros creadores y recibe likes.";
+"Select how many videos to generate" = "Selecciona cuántos videos generar";
+"请选择第二张图片" = "Seleccione la segunda imagen";
+"Cancel" = "Cancelar";
+"Save" = "Guardar";
+"描述你想象中这张照片发生的动作" = "(Opcional) Describe las acciones o la escena en la foto que imaginas, p. ej., una mujer bonita riendo y bailando felizmente";
+"Your name" = "Tu nombre";
+"UserName" = "Nombre de Usuario";
+"Video Renders" = "Renderizados de Video";
+"删除视频" = "Eliminar video";
+"确认删除这个作品吗？" = "¿Confirmar eliminar esta obra?";
+"确认" = "Confirmar";
+"取消" = "Cancelar";
+
+// 补充
+"Create" = "Crear";
+"Capture with LumaVideo and View IN lifelike, interactive" = "Captura con LumaVideo y visualiza de forma realista e interactiva";
+"You can generate multiple videos simultaneously by AI and select the best result." = "Puedes generar múltiples videos simultáneamente mediante IA y seleccionar el mejor resultado.";
+
+// 补充2
+"上传图片中" = "Subiendo imagen";
+"发布中" = "Publicando";
+"Created by" = "Creado por";
+"Prompt" = "Indicador";
+
+
+
+
+// home
+"余额" = "Balance";
+"充值入口" = "Completar";
+"历史记录" = "Historia";
+"联系我们" = "Contáctenos";
+"立即制作" = "Hacer ahora";
+"大家都在做" = "todos lo estan haciendo";
+
+// pay
+"Purse" = "Cartera";
+"充值成功" = "Recarga exitosa";
+
+// create
+"重新选择" = "Reseleccionar";
+"AI 自动生成" = "IA generada automáticamente";
+
+// temp
+"我要做同款" = "quiero hacer el mismo estilo";
+"更多模板" = "Más plantillas";
+
+// detail
+"保存视频" = "guardar vídeo";
+"再做一张" = "hacer otro";
+"返回首页" = "Regresar a la página principal";
+"已保存到相册" = "Guardado en el álbum";
+"保存失败" = "Error al guardar";
+"保存中" = "Guardando";
+"下载中" = "Descargando";
+"驯服AI中" = "Domando la IA";
+"预计完成时间" = "Tiempo estimado de finalización";
+"已完成" = "Completado";
+"立刻查看" = "Ver ahora";
+"超时错误提示" = "Solicitud agotada, por favor revisa el historial de registros.";
+
+// 历史记录
+"历史记录" = "historia";
+"暂无生成内容" = "Aún no se ha generado contenido";
+"生成中" = "generando";
+
+// 1.0.3
+// detail
+
+"做的怎么样" = "¿Cómo fue?";
+"是否要重新制作?" = "¿Quieres rehacerlo?";
+"重做" = "Rehacer";
+"输入一些提示" = "Introduce algunas sugerencias";
+"文字生成视频" = "Texto a vídeo";
+"图片生成视频" = "Imagen a vídeo";
+"请输入内容" = "Por favor, introduce el contenido";
+
+
+// 1.0.6
+
+"风格模板" = "Idea de vídeo de IA";
+"生成时长" = "Duración";
+"生成模式" = "Modo";
+"高性能" = "Velocidad";
+"高表现" = "Calidad";
+"生成速度更快，创作成本更低" = "Velocidad de generación más rápida, costos creativos más bajos";
+"视频画面质量更加，需要更多的制作时间，创作成本高" = "Calidad de video superior, requiere más tiempo de producción, costos creativos más altos";
