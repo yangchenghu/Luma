@@ -8,12 +8,6 @@ PODS:
     - CocoaLumberjack/Core (= 3.7.4)
   - CocoaLumberjack/Core (3.7.4)
   - dsBridge (3.0.6)
-  - FBSDKCoreKit (8.0.0):
-    - FBSDKCoreKit/Basics (= 8.0.0)
-    - FBSDKCoreKit/Core (= 8.0.0)
-  - FBSDKCoreKit/Basics (8.0.0)
-  - FBSDKCoreKit/Core (8.0.0):
-    - FBSDKCoreKit/Basics
   - FirebaseAnalytics (10.29.0):
     - FirebaseAnalytics/AdIdSupport (= 10.29.0)
     - FirebaseCore (~> 10.0)
@@ -157,7 +151,6 @@ DEPENDENCIES:
   - CachingPlayerItem
   - CocoaLumberjack (= 3.7.4)
   - dsBridge (= 3.0.6)
-  - FBSDKCoreKit (~> 8.0.0)
   - FirebaseAnalytics
   - FSPopoverView
   - FTPopOverMenu
@@ -190,7 +183,6 @@ SPEC REPOS:
     - CachingPlayerItem
     - CocoaLumberjack
     - dsBridge
-    - FBSDKCoreKit
     - FirebaseAnalytics
     - FirebaseCore
     - FirebaseCoreInternal
@@ -228,7 +220,6 @@ SPEC CHECKSUMS:
   CachingPlayerItem: 6564ec6c7cad409081dca01c549a0bf92367806a
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
   dsBridge: 48b62ee8a411ad601a88d6f6c8cf6cb634b206b7
-  FBSDKCoreKit: 9d27fe97a2fa2abe5eeefea8240e837623ab88e0
   FirebaseAnalytics: 23717de130b779aa506e757edb9713d24b6ffeda
   FirebaseCore: 30e9c1cbe3d38f5f5e75f48bfcea87d7c358ec16
   FirebaseCoreInternal: df84dd300b561c27d5571684f389bf60b0a5c934
@@ -261,6 +252,6 @@ SPEC CHECKSUMS:
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: be408d9b34555597a872e6663d955a06e3ffb3b7
+PODFILE CHECKSUM: 2f07336ef8115f8e96b66c2bab136cdba1944916
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

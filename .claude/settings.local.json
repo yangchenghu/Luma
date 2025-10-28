@@ -3,7 +3,12 @@
     "allow": [
       "Bash(find:*)",
       "Bash(xargs:*)",
-      "Bash(pod install:*)"
+      "Bash(pod install:*)",
+      "Read(//Users/yangchenghu/code/个人/keke/luma-flutter/**)",
+      "Bash(xcodebuild:*)",
+      "Bash(defaults read:*)",
+      "Bash(gem install:*)",
+      "Bash(ruby:*)"
     ],
     "deny": [],
     "ask": []

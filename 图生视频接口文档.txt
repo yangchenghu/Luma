@@ -1,0 +1,108 @@
+图生视频接口文档
+一、接口说明
+用户首次安装使用设备唯一id登录，登录成功后进入首页。
+测试环境：https://tserver.singlow.xyz
+
+接口公共参数：
+source、platform、buildNumber、deviceModel
+
+公共请求头：
+authorization：Bearer {token}
+
+二、接口列表
+1. 获取系统配置： /api/system/config     GET
+•   参数：
+
+2. 登录接口： /api/user/app/login     POST
+•   参数：
+•   deviceId:  设备唯一
+•   idfa:    ios idfa
+•   idfv:    ios idfv
+•   gpsAdid:    android adid 
+•   androidId:   android id
+•   adid:    adjust id
+
+3. 获取用户信息：/api/user/info    GET
+•   参数：
+•   userId：用户id
+
+4. 首页模版数据：/api/template/home    GET
+•   参数：
+•   idfa:    ios idfa
+•   idfv:    ios idfv
+•   gpsAdid:    android adid 
+•   androidId:   android id
+•   adid:    adjust id
+•   page:   分页
+
+5. 推荐模版数据：/api/template/list    GET
+•   参数：
+
+6. 分类下的模版：/api/template/getBy    GET
+•   参数：
+•   categoryId:  分类 _id
+•   page：分页
+
+7. 模版详情：/api/template/{templateId}    GET
+•   参数：
+•   templateId:  模版id
+
+8. 瀑布流数据：/api/gallery/list     GET
+•   参数：
+•   page:   
+
+9. 创建任务：/api/task/pixverse/create    POST
+•   参数：
+•   templateId:  模版id
+•   prompt:   提示词
+•   costType:  制作消耗类型
+•   path:  文件path
+•   imageUrl:  上传图片链接
+•   imageUrl2：   上传图片链接2
+•   originalUrl：  原始图片链接
+•   userId：  用户id
+
+10. 获取金币消耗类型：/api/order/cost     GET
+•   参数：
+•   templateId:  模版id（可为空）
+•   prompt:   提示userId：  用户id（可为空）
+
+11. 获取任务进度：/api/task/pixverse/progress      GET
+•   参数：
+•   processId:  创建任务接口返回的 （创建任务接口同时有值）
+•   videoId:   创建任务接口返回的（创建任务接口有这个值）  
+•   userId:
+
+12. 删除任务：/api/task/delete      POST
+•   参数：
+•   taskId：任务id
+•   userId:
+
+13. 获取支付配置商品：/api/order/packages      GET
+•   参数：
+
+14. 创建支付订单：/api/order/app/create      POST
+•   参数：
+•   packageId： 支付商品id
+•   userId
+
+15. 轮询订单状态：/api/order/status      GET
+•   参数：
+•   orderId： 订单id
+•   transactionId:  苹果交易id
+
+16. 获取阿里云上传图片参数：/api/tast/pixverse/getUploadToken      GET
+•   参数：
+
+17. 上传图片到pix：/api/tast/pixverse/uploadToPix      POST
+•   参数：
+•   name:  文件名 ， 有格式要求
+•   path： 文件路径
+•   size ： 文件大小
+•   ossUrl ： 上传阿里云后的链接
+•   
+
+18 获取aws预签名url：/api/task/aws/getUploadUrl      GET
+•   参数：
+•   fileName:  文件名 
+•   

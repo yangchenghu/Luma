@@ -28,7 +28,7 @@ extension NetworkApiProtocol {
 class NetworkConfig : NSObject {
     public static let shared = NetworkConfig()
     
-    var apiHost : String = "https://api.aibaturu.com"
+    var apiHost : String = "https://tserver.singlow.xyz"
     var token : String?
     
     var baseParams : [String : Any] {

@@ -8,7 +8,7 @@
 import Foundation
 import Adjust
 import FirebaseAnalytics
-import FirebaseCore
+//import FirebaseCrashlyticsore
 
 import Adjust
 import AdSupport

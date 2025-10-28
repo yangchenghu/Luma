@@ -11,7 +11,7 @@ post_install do |installer|
     installer.generated_projects.each do |project|
       project.targets.each do |target|
         target.build_configurations.each do |config|
-          config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+          config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "i386"
         end
       end
     end
@@ -19,7 +19,7 @@ end
 
 
 def network
-	pod 'Alamofire'
+  pod 'Alamofire'
   pod 'SDWebImage', '5.12.1'
   pod 'SDWebImageWebPCoder', '0.8.4'
   pod 'SDWebImagePhotosPlugin', '1.2.0'
@@ -55,7 +55,7 @@ end
 def report 
   pod 'Adjust', '~> 4.38.4'
   pod 'FirebaseAnalytics'
-  pod 'FBSDKCoreKit', '~> 8.0.0'
+  # pod 'FBSDKCoreKit', '~> 8.0.0'
 end
 
 def utils

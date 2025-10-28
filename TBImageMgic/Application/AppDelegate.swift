@@ -1,7 +1,7 @@
 
 
 import UIKit
-import FBSDKCoreKit
+//import FBSDKCoreKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
